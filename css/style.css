@@ -21,6 +21,7 @@ body {
 	/* background-color: red; */
 	display: grid;
 	grid-template-columns: 20% 10% 10% 10% 10%;
+	justify-content: center;
 }
 
 .primary-color {
