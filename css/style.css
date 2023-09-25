@@ -1,0 +1,49 @@
+body {
+	background-color: rgb(243,242,236);
+}
+
+#logo {
+	list-style: none;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+#header {
+	color: red;
+	/* background-color: yellow; */
+	font-size: 30px;
+}
+
+#content {
+	color: blue;
+}
+
+#footer {
+	background-color: red;
+}
+
+.primary-color {
+	color: rgb(34,34,34);
+}
+
+.secondary-color {
+	color: rgb(119,119,119);
+}
+
+.accent-color {
+	color: rgb(220,169,96);
+}
+
+.nav-links {
+	display: flex;
+	padding: 0;
+}
+
+.nav-right {
+	list-style-type: none;
+	margin-left: auto;
+	display: flex;
+}
+.nav-right li {
+	margin-right: 20px;
+}
