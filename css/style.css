@@ -51,3 +51,8 @@ body {
 ul {
 	list-style-type: none;
 }
+
+.footer-title {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
