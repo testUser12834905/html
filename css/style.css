@@ -3,7 +3,6 @@ body {
 }
 
 #logo {
-	list-style: none;
 	margin-right: auto;
 	margin-left: 20px;
 }
@@ -19,7 +18,9 @@ body {
 }
 
 #footer {
-	background-color: red;
+	/* background-color: red; */
+	display: grid;
+	grid-template-columns: 20% 10% 10% 10% 10%;
 }
 
 .primary-color {
@@ -40,10 +41,12 @@ body {
 }
 
 .nav-right {
-	list-style-type: none;
 	margin-left: auto;
 	display: flex;
 }
 .nav-right li {
 	margin-right: 20px;
+}
+ul {
+	list-style-type: none;
 }
