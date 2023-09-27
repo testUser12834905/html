@@ -14,11 +14,13 @@ body {
 	/* background-color: yellow; */
 	font-size: 30px;
 	border-bottom: 1.5px solid #E0E0E0;
+	text-align: center;
 }
 
 #content {
-	color: blue;
+	/* color: blue; */
 	height: 80vh;
+	margin-bottom: 10px;
 }
 
 #footer {
@@ -40,6 +42,12 @@ body {
 	color: rgb(220,169,96);
 }
 
+.accent-color-darker {
+	color: #C4A992; 
+	border-color: #C4A992;
+	border-style: solid;
+	font-size: 30px;
+}
 .nav-links {
 	display: flex;
 	padding: 0;
@@ -60,4 +68,23 @@ ul {
 .footer-title {
 	font-size: 25px;
 	margin-bottom: 10px;
+}
+
+.highlight {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 30% 20%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.highlight-title {
+	font-size: 60px;
+}
+.credentials {
+	display: flex;
+	justify-content: center;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	background-color: #EDEBE4;
 }
