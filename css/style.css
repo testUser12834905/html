@@ -17,9 +17,32 @@ body {
 	text-align: center;
 }
 
+.nav-links {
+	display: flex;
+	padding: 0;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: rgb(119,119,119);
+}
+
+.nav-links a:hover {
+	text-decoration: none;
+	color: rgb(220,169,96);
+}
+.nav-right {
+	margin-left: auto;
+	display: flex;
+}
+.nav-right li {
+	margin-right: 20px;
+}
+
+
 #content {
 	/* color: blue; */
-	height: 80vh;
+	/* height: 80vh; */
 	margin-bottom: 10px;
 }
 
@@ -48,19 +71,6 @@ body {
 	border-style: solid;
 	font-size: 30px;
 }
-.nav-links {
-	display: flex;
-	padding: 0;
-}
-
-.nav-right {
-	margin-left: auto;
-	display: flex;
-}
-.nav-right li {
-	margin-right: 20px;
-}
-
 ul {
 	list-style-type: none;
 }
