@@ -12,9 +12,8 @@ body {
 	flex-direction: column;
 	color: red;
 	/* background-color: yellow; */
-	font-size: 30px;
+	font-size: 22px;
 	border-bottom: 1.5px solid #E0E0E0;
-	text-align: center;
 }
 
 .nav-links {
@@ -25,6 +24,11 @@ body {
 .nav-links a {
 	text-decoration: none;
 	color: rgb(119,119,119);
+	text-transform: uppercase;
+	font-family: "Raleway", sans-serif;
+}
+.nav-links a.pro {
+	color: black;
 }
 
 .nav-links a:hover {
@@ -34,11 +38,16 @@ body {
 .nav-right {
 	margin-left: auto;
 	display: flex;
+	display: none;
 }
 .nav-right li {
+	display: flex;
 	margin-right: 20px;
+	justify-content: center;
+	align-items: center;
+	/* vertical-align: baseline; */
+	/* position: absolute; */
 }
-
 
 #content {
 	/* color: blue; */
@@ -47,10 +56,7 @@ body {
 }
 
 #footer {
-	/* background-color: red; */
-	display: grid;
-	grid-template-columns: 20% 10% 10% 10% 10%;
-	justify-content: center;
+	
 }
 
 .primary-color {
@@ -97,4 +103,24 @@ ul {
 	padding-top: 110px;
 	padding-bottom: 110px;
 	background-color: #EDEBE4;
+}
+
+.footer-list {
+	/* background-color: red; */
+	display: grid;
+	grid-template-columns: 20% 10% 10% 10% 10%;
+	justify-content: center;
+	border-bottom: 1.5px solid #E0E0E0;
+}
+.footer-crn {
+	justify-content: center;
+}
+.pro {
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 25px;
+	border-width: 2px;
+	color: black;
+	
 }
