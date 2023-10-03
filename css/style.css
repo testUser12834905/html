@@ -35,11 +35,13 @@ body {
 	text-decoration: none;
 	color: rgb(220,169,96);
 }
+
 .nav-right {
 	margin-left: auto;
 	display: flex;
 	display: none;
 }
+
 .nav-right li {
 	display: flex;
 	margin-right: 20px;
@@ -72,31 +74,45 @@ body {
 }
 
 .accent-color-darker {
-	color: #C4A992; 
+	color: #C4A992;
 	border-color: #C4A992;
 	border-style: solid;
-	font-size: 30px;
+	border-width: 1.5px;
+	font-size: 20px;
+	padding: 10px 25px 10px 25px;
+	background-color: rgb(243,242,236);
+	margin-top: 40px;
 }
+
+.accent-color-darker:hover {
+	color: black;
+	border-color: black;
+	border-style: solid;
+}
+
 ul {
 	list-style-type: none;
 }
 
 .footer-title {
 	font-size: 25px;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 }
 
 .highlight {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 30% 20%;
+	grid-template-columns: 40% 20%;
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
 
 .highlight-title {
 	font-size: 60px;
+	margin-bottom: 20px;
+	margin-top: 70px;
 }
+
 .credentials {
 	display: flex;
 	justify-content: center;
@@ -112,9 +128,11 @@ ul {
 	justify-content: center;
 	border-bottom: 1.5px solid #E0E0E0;
 }
+
 .footer-crn {
 	justify-content: center;
 }
+
 .pro {
 	display: inline-block;
 	padding: 10px;
@@ -123,4 +141,12 @@ ul {
 	border-width: 2px;
 	color: black;
 	
+}
+
+.highlight-txt{
+	margin-right: 50px;
+}
+
+.footer-list li:not(:first-child) {
+	margin-bottom: 10px;
 }
