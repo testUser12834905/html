@@ -39,7 +39,6 @@ body {
 .nav-right {
 	margin-left: auto;
 	display: flex;
-	display: none;
 }
 
 .nav-right li {
