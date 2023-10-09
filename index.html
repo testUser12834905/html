@@ -6,6 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -25,6 +26,23 @@
 		</ul>
 	</div>
 
+	<div id="header-stick" class="invisible">
+		<ul class="nav-links">
+			<li id="logo"><a href="#"><img src="assets/main-logo.png" alt=""></a></li>
+			<div class="nav-right">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#pages">Pages</a></li>
+				<li><a href="#features">Featured</a></li>
+				<li><a href="#populer">Popular</a></li>
+				<li><a href="#offer">Offer</a></li>
+				<li><a href="#articles">Articles</a></li>
+				<li><a href="#download">Download App</a></li>
+				<li><a class="pro" href="#pro">Get Pro</a></li>
+			</div>
+		</ul>
+	</div>
+
+
 	<div id="content">
 		<div class="highlight">
 			<ul class="highlight-txt">
@@ -41,11 +59,11 @@
 			<img src="assets/highlight.jpeg" alt="">
 		</div>
 		<div class="credentials">
-			<img src="assets/cred1.png" alt="">
-			<img src="assets/cred2.png" alt="">
-			<img src="assets/cred3.png" alt="">
-			<img src="assets/cred4.png" alt="">
-			<img src="assets/cred5.png" alt="">
+			<a href="#"><img src=" assets/cred1.png" alt=""></a>
+			<a href="#"><img src="assets/cred2.png" alt=""></a>
+			<a href="#"><img src="assets/cred3.png" alt=""></a>
+			<a href="#"><img src="assets/cred4.png" alt=""></a>
+			<a href="#"><img src="assets/cred5.png" alt=""></a>
 		</div>
 	</div>
 
@@ -93,6 +111,19 @@
 
 			<p>© 2022 All rights reserved. Free HTML Template by Mark Hegedus</p>
 		</div>
+		<script>
+			const header = document.getElementById("header");
+			const headerStick = document.getElementById("header-stick");
+			const nonFixed = header.offsetTop + header.offsetHeight;
+
+			window.onscroll = () => {
+				if (window.pageYOffset >= nonFixed) {
+					headerStick.classList.remove("invisible");
+				} else {
+					headerStick.classList.add("invisible");
+				}
+			}
+		</script>
 	</div>
 </body>
 
