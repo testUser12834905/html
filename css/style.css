@@ -92,6 +92,18 @@ body {
 	/* position: absolute; */
 }
 
+.dropdown {
+	display: none;
+   position:absolute;
+	/* width: 100%; */
+	z-index: 900;	
+	background-color: rgb(243,242,236);
+	top: 70px;
+}
+
+li:hover ul.dropdown {
+	display: block;
+}
 #content {
 	/* color: blue; */
 	/* height: 80vh; */
