@@ -98,12 +98,32 @@ body {
 	/* width: 100%; */
 	z-index: 900;	
 	background-color: rgb(243,242,236);
+	border: 1px solid rgb(119,119,119);
 	top: 70px;
+}
+.dropdown li {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 li:hover ul.dropdown {
 	display: block;
 }
+
+li:hover .arrow{
+
+	transform: rotate(90deg);
+	/* transition: 1.3s ease-in-out;	 */
+}
+.arrow {
+	transition: 0.3s ease-in-out;	
+}
+
+/* .arrow:hover { */
+/* 	/* transform-origin: 25px 25px; */ */
+/* 	display: inline-block; */
+/* } */
+
 #content {
 	/* color: blue; */
 	/* height: 80vh; */
