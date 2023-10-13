@@ -136,8 +136,9 @@ ul {
 }
 
 .footer-title {
-	font-size: 25px;
+	font-size: 23px;
 	margin-bottom: 40px;
+	letter-spacing: 0.5px;
 }
 
 .highlight {
@@ -174,9 +175,11 @@ ul {
 	border-bottom: 1.5px solid #E0E0E0;
 }
 
+/* TODO: Do not forget to remove the hight*/
 .footer-crn {
 	justify-content: center;
 	height: 500px;
+	text-align: center;
 }
 
 .highlight-txt{
