@@ -1,5 +1,6 @@
 body {
 	background-color: rgb(243,242,236);
+	/* display: flex; */
 }
 
 #logo {
@@ -45,6 +46,7 @@ body {
 
 .nav-links {
 	display: flex;
+	flex-wrap: wrap;
 	padding: 0;
 }
 
@@ -81,6 +83,7 @@ body {
 .nav-right {
 	margin-left: auto;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .nav-right li {
@@ -111,18 +114,13 @@ li:hover ul.dropdown {
 }
 
 li:hover .arrow{
-
 	transform: rotate(90deg);
-	/* transition: 1.3s ease-in-out;	 */
+	fill: rgb(220,169,96);
 }
 .arrow {
 	transition: 0.3s ease-in-out;	
+	fill: rgb(119,119,119);
 }
-
-/* .arrow:hover { */
-/* 	/* transform-origin: 25px 25px; */ */
-/* 	display: inline-block; */
-/* } */
 
 #content {
 	/* color: blue; */
@@ -189,6 +187,7 @@ ul {
 
 .credentials {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	padding-top: 110px;
 	padding-bottom: 110px;
@@ -202,9 +201,17 @@ ul {
 .footer-list {
 	/* background-color: red; */
 	display: grid;
-	grid-template-columns: 20% 10% 10% 10% 10%;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
 	justify-content: center;
 	border-bottom: 1.5px solid #E0E0E0;
+	margin: 0 10%;
+}
+/*INFO: This overrides the prev, ideally at least a tablet view should be aswell*/
+@media (max-width:500px) {
+	.footer-list{
+	grid-template-columns: 1fr;
+	justify-content: center;
+	}
 }
 
 /* TODO: Do not forget to remove the hight*/
