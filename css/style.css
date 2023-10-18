@@ -1,5 +1,4 @@
 body {
-	background-color: rgb(243,242,236);
 	/* display: flex; */
 }
 
@@ -12,7 +11,6 @@ body {
 	/* position: fixed; */
 	/*   z-index: 500; */
 	/* width: 100%; */
-	background-color: rgb(243,242,236);
 	display: flex;
 	flex-direction: column;
 	color: red;
@@ -28,7 +26,7 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	background-color: rgb(243,242,236);
+	/* background-color: rgb(243,242,236); */
 	transition: top 0.3s;
 }
 
@@ -129,9 +127,9 @@ li:hover .arrow{
 	margin-bottom: 10px;
 }
 
-#footer {
-	
-}
+/* #footer { */
+/**/
+/* } */
 
 .primary-color {
 	color: rgb(34,34,34);
@@ -200,7 +198,6 @@ ul {
 	justify-content: center;
 	padding-top: 110px;
 	padding-bottom: 110px;
-	background-color: #EDEBE4;
 }
 
 .credentials img:hover {

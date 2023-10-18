@@ -7,11 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bg-color.css" rel="stylesheet">
 
 </head>
 
-<body>
-	<div id="header">
+<body class="bg-light">
+	<div id="header" class="bg-light">
 		<ul class="nav-links">
 			<li id="logo"><a href="#"><img src="assets/main-logo.png" alt=""></a></li>
 			<div class="nav-right">
@@ -36,14 +37,23 @@
 		</ul>
 	</div>
 
-	<div id="header-stick" class="invisible">
+	<div id="header-stick" class="invisible bg-light">
 		<ul class="nav-links">
 			<li id="logo"><a href="#"><img src="assets/main-logo.png" alt=""></a></li>
 			<div class="nav-right">
 				<li><a href="#home">Home</a></li>
-				<li><a href="#pages">Pages</a></li>
-				<li><a href="#features">Featured</a></li>
-				<li><a href="#populer">Popular</a></li>
+				<li><a href="#pages">Pages <svg width="15" height="15" class="arrow" viewBox="0 0 24 24">
+							<path d="M21 12l-18 12v-24z" />
+						</svg></a>
+					<ul class="dropdown">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Pro</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#featured">Featured</a></li>
+				<li><a href="#popular">Popular</a></li>
 				<li><a href="#offer">Offer</a></li>
 				<li><a href="#articles">Articles</a></li>
 				<li><a href="#download">Download App</a></li>
@@ -60,15 +70,18 @@
 				<li class="secondary-color">Chris McCandless abandoned the modern world and chose the wild because he
 					believed that he could improve himself through living in the wild, and found the true happiness of the
 					life. McCandless abandoned his wealthy family because of his complicated relationship with his father,
-					and he was ashamed with his father’s adultery. Therefore, McCandless believed that human relationship was
-					not the only thing that forms happiness, instead a man’s connection with the nature brings joy as well.
-					He also believed the habitual lifestyle was not what people were meant to do, and people shouldn't have
+					and he was ashamed with his father’s adultery. Therefore, McCandless believed that human relationship
+					was
+					not the only thing that forms happiness, instead a man’s connection with the nature brings joy as
+					well.
+					He also believed the habitual lifestyle was not what people were meant to do, and people shouldn't
+					have
 					more possessions than what they need... </li>
 				<li><button class="accent-color-darker" type="button"><strong> Read More →</strong></button></li>
 			</ul>
 			<img src="assets/highlight.jpeg" alt="">
 		</div>
-		<div class="credentials">
+		<div class="credentials bg-dark">
 			<a href="#"><img src="assets/cred1.png" alt=""></a>
 			<a href="#"><img src="assets/cred2.png" alt=""></a>
 			<a href="#"><img src="assets/cred3.png" alt=""></a>
@@ -76,7 +89,9 @@
 			<a href="#"><img src="assets/cred5.png" alt=""></a>
 		</div>
 	</div>
+	<div class="featured-books">
 
+	</div>
 	<div id="footer">
 		<div class="footer-list">
 
@@ -121,20 +136,9 @@
 
 			<p>© 2023 All rights reserved. Free HTML Template by Mark Hegedus</p>
 		</div>
-		<script>
-			const header = document.getElementById("header");
-			const headerStick = document.getElementById("header-stick");
-			const nonFixed = header.offsetTop + header.offsetHeight;
 
-			window.onscroll = () => {
-				if (window.pageYOffset >= nonFixed) {
-					headerStick.classList.remove("invisible");
-				} else {
-					headerStick.classList.add("invisible");
-				}
-			}
-		</script>
 	</div>
+	<script src="js/navbar.js"></script>
 </body>
 
 </html>
