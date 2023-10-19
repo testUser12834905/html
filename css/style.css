@@ -296,8 +296,32 @@ ul {
 	margin-bottom: 10px;
 }
 
+.mobile-nav {
+	display: none;
+}
+
 /* INFO: This overrides the prev, ideally at least a tablet view should be aswell*/
 @media (max-width:650px) {
+
+	.nav-right {
+		display: none;
+		position:absolute;
+		/* width: 100%; */
+		z-index: 900;	
+		background-color: rgb(243,242,236);
+		border: 1px solid rgb(119,119,119);
+		top: 70px;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	button:hover + .nav-right {
+		display: block;	
+	}
+
+
 	.footer-list{
 		grid-template-columns: 1fr;
 		justify-content: center;
