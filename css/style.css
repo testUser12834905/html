@@ -225,6 +225,7 @@ ul {
 .featured-books {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 300px);
+	/* grid-auto-rows: 400px; */
 	justify-content: center;	
 	justify-items: center;
 }
@@ -232,7 +233,8 @@ ul {
 	/* display: grid; */
 	/* text-align: center; */
 	/* justify-content: center; */
-	width: 15vw;
+	margin: 0px 0px 0px 0px;
+	width: calc(15vw + 200px);
 	margin: 10px 20px;
 }
 .featured-book img {
