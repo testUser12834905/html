@@ -44,6 +44,9 @@
 	.highlight-txt button{
 		margin: 12px;
 	}
+	.highlight-txt p {
+		text-align: center;
+	}
 
 	.highlight-title {
 		font-size: 40px;
