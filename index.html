@@ -1,234 +1,289 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- This is a comment, added purely for demonstrational purpose -->
 <html lang="en">
+	<head>
+		<title></title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/bg-color.css" rel="stylesheet" />
+		<link href="css/mobile.css" rel="stylesheet" />
+	</head>
 
-<head>
-	<title></title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/bg-color.css" rel="stylesheet">
-	<link href="css/mobile.css" rel="stylesheet">
-
-</head>
-
-<body class="bg-light">
-	<div id="header" class="bg-light">
-		<ul class="nav-links">
-			<li id="logo"><a href="#"><img src="assets/main-logo.png" alt=""></a></li>
-			<button type="button" class="mobile-nav"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
-					height="100" viewBox="0 0 50 50">
-					<path
-						d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z">
-					</path>
-				</svg></button>
-			<div class="nav-right">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#pages">Pages <svg width="15" height="15" class="arrow" viewBox="0 0 24 24">
-							<path d="M21 12l-18 12v-24z" />
-						</svg></a>
-					<ul class="dropdown">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Pro</a></li>
-					</ul>
+	<body class="bg-light">
+		<div id="header" class="bg-light">
+			<ul class="nav-links">
+				<li id="logo">
+					<a href="#"><img src="assets/main-logo.png" alt="" /></a>
 				</li>
-				<li><a href="#featured">Featured</a></li>
-				<li><a href="#popular">Popular</a></li>
-				<li><a href="#offer">Offer</a></li>
-				<li><a href="#articles">Articles</a></li>
-				<li><a href="#download">Download App</a></li>
-				<li><a class="pro" href="#pro">Get Pro</a></li>
-			</div>
-		</ul>
-	</div>
+				<button type="button" class="mobile-nav">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						x="0px"
+						y="0px"
+						width="100"
+						height="100"
+						viewBox="0 0 50 50"
+					>
+						<path
+							d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"
+						></path>
+					</svg>
+				</button>
+				<div class="nav-right">
+					<li><a href="#home">Home</a></li>
+					<li>
+						<a href="#pages"
+							>Pages
+							<svg
+								width="15"
+								height="15"
+								class="arrow"
+								viewBox="0 0 24 24"
+							>
+								<path d="M21 12l-18 12v-24z" /></svg
+						></a>
+						<ul class="dropdown">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Pro</a></li>
+						</ul>
+					</li>
+					<li><a href="#featured">Featured</a></li>
+					<li><a href="#popular">Popular</a></li>
+					<li><a href="#offer">Offer</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#download">Download App</a></li>
+					<li><a class="pro" href="#pro">Get Pro</a></li>
+				</div>
+			</ul>
+		</div>
 
-	<div id="header-stick" class="invisible bg-light">
-		<ul class="nav-links">
-			<li id="logo"><a href="#"><img src="assets/main-logo.png" alt=""></a></li>
-			<button type="button" class="mobile-nav"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100"
-					height="100" viewBox="0 0 50 50">
-					<path
-						d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z">
-					</path>
-				</svg></button>
-			<div class="nav-right">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#pages">Pages <svg width="15" height="15" class="arrow" viewBox="0 0 24 24">
-							<path d="M21 12l-18 12v-24z" />
-						</svg></a>
-					<ul class="dropdown">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Pro</a></li>
-					</ul>
+		<div id="header-stick" class="invisible bg-light">
+			<ul class="nav-links">
+				<li id="logo">
+					<a href="#"><img src="assets/main-logo.png" alt="" /></a>
 				</li>
-				<li><a href="#featured">Featured</a></li>
-				<li><a href="#popular">Popular</a></li>
-				<li><a href="#offer">Offer</a></li>
-				<li><a href="#articles">Articles</a></li>
-				<li><a href="#download">Download App</a></li>
-				<li><a class="pro" href="#pro">Get Pro</a></li>
-			</div>
-		</ul>
-	</div>
+				<button type="button" class="mobile-nav">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						x="0px"
+						y="0px"
+						width="100"
+						height="100"
+						viewBox="0 0 50 50"
+					>
+						<path
+							d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"
+						></path>
+					</svg>
+				</button>
+				<div class="nav-right">
+					<li><a href="#home">Home</a></li>
+					<li>
+						<a href="#pages"
+							>Pages
+							<svg
+								width="15"
+								height="15"
+								class="arrow"
+								viewBox="0 0 24 24"
+							>
+								<path d="M21 12l-18 12v-24z" /></svg
+						></a>
+						<ul class="dropdown">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Pro</a></li>
+						</ul>
+					</li>
+					<li><a href="#featured">Featured</a></li>
+					<li><a href="#popular">Popular</a></li>
+					<li><a href="#offer">Offer</a></li>
+					<li><a href="#articles">Articles</a></li>
+					<li><a href="#download">Download App</a></li>
+					<li><a class="pro" href="#pro">Get Pro</a></li>
+				</div>
+			</ul>
+		</div>
 
-	<div id="content">
-		<div class="highlight">
+		<div id="content">
+			<div class="highlight">
+				<ul class="highlight-txt">
+					<li class="highlight-title">Life Of The Wild</li>
+					<li class="secondary-color">
+						Chris McCandless abandoned the modern world and chose the wild
+						because he believed that he could improve himself through
+						living in the wild, and found the true happiness of the life.
+						McCandless abandoned his wealthy family because of his
+						complicated relationship with his father, and he was ashamed
+						with his father’s adultery. Therefore, McCandless believed
+						that human relationship was not the only thing that forms
+						happiness, instead a man’s connection with the nature brings
+						joy as well. He also believed the habitual lifestyle was not
+						what people were meant to do, and people shouldn't have more
+						possessions than what they need...
+					</li>
+					<li>
+						<button class="accent-color-darker" type="button">
+							<strong> Read More →</strong>
+						</button>
+					</li>
+				</ul>
+				<img src="assets/highlight.jpeg" alt="" />
+			</div>
+			<div class="credentials bg-dark">
+				<a href="#"><img src="assets/cred1.png" alt="" /></a>
+				<a href="#"><img src="assets/cred2.png" alt="" /></a>
+				<a href="#"><img src="assets/cred3.png" alt="" /></a>
+				<a href="#"><img src="assets/cred4.png" alt="" /></a>
+				<a href="#"><img src="assets/cred5.png" alt="" /></a>
+			</div>
+		</div>
+		<div class="featured bg-light">
+			<h4>SOME QUALITY ITEMS</h4>
+			<h1>Featured Books</h1>
+			<div class="featured-books">
+				<div class="featured-book">
+					<img src="assets/fb1.jpeg" alt="The Lady Beauty Scarlet" />
+					<h2>The Lady Beauty Scarlet</h2>
+					<h4>Arthur Doyle</h4>
+					<h3>$ 45.00</h3>
+				</div>
+				<div class="featured-book">
+					<img src="assets/fb2.jpeg" alt="Simple Way Of Piece Life" />
+					<h2>Simple Way Of Piece Life</h2>
+					<h4>Armor Ramsey</h4>
+					<h3>$ 35.00</h3>
+				</div>
+				<div class="featured-book">
+					<img src="assets/fb3.jpeg" alt="Once Upon A Time" />
+					<h2>Once Upon A Time</h2>
+					<h4>Kilian Marry</h4>
+					<h3>$ 39.99</h3>
+				</div>
+				<div class="featured-book">
+					<img src="assets/fb4.jpeg" alt="Great Travel At Desert" />
+					<h2>Great Travel At Desert</h2>
+					<h4>Sankit Howley</h4>
+					<h3>$ 14.99</h3>
+				</div>
+			</div>
+		</div>
+		<div class="quote bg-dark">
+			<h1>Quote Of The Day</h1>
+			<h4>
+				“The more that you read, the more things you will know. The more
+				that you learn, the more places you’ll go.”
+			</h4>
+			<h5>De. Seuss</h5>
+		</div>
+		<div class="featured bg-light">
+			<h4>GRAB YOUR OPPORTUNITY</h4>
+			<h1>Books With Offer</h1>
+			<div class="featured-books">
+				<div class="featured-book">
+					<img src="assets/fb1.jpeg" alt="The Lady Beauty Scarlet" />
+					<h2>The Lady Beauty Scarlet</h2>
+					<h4>Arthur Doyle</h4>
+					<h3><del>$ 45.00</del> $ 39.99</h3>
+				</div>
+				<div class="featured-book">
+					<img src="assets/fb2.jpeg" alt="Simple Way Of Piece Life" />
+					<h2>Simple Way Of Piece Life</h2>
+					<h4>Armor Ramsey</h4>
+					<h3><del>$ 36.99</del> $ 29.99</h3>
+				</div>
+				<div class="featured-book">
+					<img src="assets/fb3.jpeg" alt="Once Upon A Time" />
+					<h2>Once Upon A Time</h2>
+					<h4>Kilian Marry</h4>
+					<h3><del>$ 48.95</del> $ 39.99</h3>
+				</div>
+				<div class="featured-book">
+					<img src="assets/fb4.jpeg" alt="Great Travel At Desert" />
+					<h2>Great Travel At Desert</h2>
+					<h4>Sankit Howley</h4>
+					<h3><del>$ 26.45</del> $ 19.97</h3>
+				</div>
+			</div>
+		</div>
+
+		<div class="highlight bg-dark">
+			<img src="assets/phone.png" alt="picture of a phone" />
 			<ul class="highlight-txt">
-				<li class="highlight-title">Life Of The Wild</li>
-				<li class="secondary-color">Chris McCandless abandoned the modern world and chose the wild because he
-					believed that he could improve himself through living in the wild, and found the true happiness of the
-					life. McCandless abandoned his wealthy family because of his complicated relationship with his father,
-					and he was ashamed with his father’s adultery. Therefore, McCandless believed that human relationship
-					was
-					not the only thing that forms happiness, instead a man’s connection with the nature brings joy as
-					well.
-					He also believed the habitual lifestyle was not what people were meant to do, and people shouldn't
-					have
-					more possessions than what they need... </li>
-				<li><button class="accent-color-darker" type="button"><strong> Read More →</strong></button></li>
-			</ul>
-			<img src="assets/highlight.jpeg" alt="">
-		</div>
-		<div class="credentials bg-dark">
-			<a href="#"><img src="assets/cred1.png" alt=""></a>
-			<a href="#"><img src="assets/cred2.png" alt=""></a>
-			<a href="#"><img src="assets/cred3.png" alt=""></a>
-			<a href="#"><img src="assets/cred4.png" alt=""></a>
-			<a href="#"><img src="assets/cred5.png" alt=""></a>
-		</div>
-	</div>
-	<div class="featured bg-light">
-		<h4>SOME QUALITY ITEMS</h4>
-		<h1>Featured Books</h1>
-		<div class="featured-books">
-			<div class="featured-book">
-				<img src="assets/fb1.jpeg" alt="The Lady Beauty Scarlet">
-				<h2>The Lady Beauty Scarlet</h2>
-				<h4>Arthur Doyle</h4>
-				<h3>$ 45.00</h3>
-			</div>
-			<div class="featured-book">
-				<img src="assets/fb2.jpeg" alt="Simple Way Of Piece Life">
-				<h2>Simple Way Of Piece Life</h2>
-				<h4>Armor Ramsey</h4>
-				<h3>$ 35.00</h3>
-			</div>
-			<div class="featured-book">
-				<img src="assets/fb3.jpeg" alt="Once Upon A Time">
-				<h2>Once Upon A Time</h2>
-				<h4>Kilian Marry</h4>
-				<h3>$ 39.99</h3>
-			</div>
-			<div class="featured-book">
-				<img src="assets/fb4.jpeg" alt="Great Travel At Desert">
-				<h2>Great Travel At Desert</h2>
-				<h4>Sankit Howley</h4>
-				<h3>$ 14.99</h3>
-			</div>
-
-		</div>
-	</div>
-	<div class="quote bg-dark">
-		<h1>Quote Of The Day</h1>
-		<h4>
-			“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.”
-		</h4>
-		<h5>De. Seuss</h5>
-	</div>
-	<div class="featured bg-light">
-		<h4>GRAB YOUR OPPORTUNITY</h4>
-		<h1>Books With Offer</h1>
-		<div class="featured-books">
-			<div class="featured-book">
-				<img src="assets/fb1.jpeg" alt="The Lady Beauty Scarlet">
-				<h2>The Lady Beauty Scarlet</h2>
-				<h4>Arthur Doyle</h4>
-				<h3><del>$ 45.00</del> $ 39.99</h3>
-			</div>
-			<div class="featured-book">
-				<img src="assets/fb2.jpeg" alt="Simple Way Of Piece Life">
-				<h2>Simple Way Of Piece Life</h2>
-				<h4>Armor Ramsey</h4>
-				<h3><del>$ 36.99</del> $ 29.99</h3>
-			</div>
-			<div class="featured-book">
-				<img src="assets/fb3.jpeg" alt="Once Upon A Time">
-				<h2>Once Upon A Time</h2>
-				<h4>Kilian Marry</h4>
-				<h3><del>$ 48.95</del> $ 39.99</h3>
-			</div>
-			<div class="featured-book">
-				<img src="assets/fb4.jpeg" alt="Great Travel At Desert">
-				<h2>Great Travel At Desert</h2>
-				<h4>Sankit Howley</h4>
-				<h3><del>$ 26.45</del> $ 19.97</h3>
-			</div>
-		</div>
-	</div>
-
-	<div class="highlight bg-dark">
-		<img src="assets/phone.png" alt="picture of a phone">
-		<ul class="highlight-txt">
-			<li class="highlight-title">Download Our App Now !</li>
-			<li class="secondary-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus
-				liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat
-				ac in suspendisse iaculis.</li>
-			<p>
-				<a><img src="assets/google-play.jpg" alt="Download the mobile app from Google Play."></a>
-				<a><img src="assets/app-store.jpg" alt="Download the mobile app from the App Store."></a>
-			</p>
-		</ul>
-	</div>
-	</div>
-
-	<div id="footer">
-		<div class="footer-list">
-
-			<ul>
-				<li class="footer-title"><a href="#"><img src="assets/main-logo.png" alt=""></a></li>
+				<li class="highlight-title">Download Our App Now !</li>
 				<li class="secondary-color">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin.
-					Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis
+					sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere
+					sit iaculis amet, ac urna. Adipiscing fames semper erat ac in
+					suspendisse iaculis.
 				</li>
-			</ul>
-			<ul>
-				<li class="footer-title">About Us</li>
-				<li>Vision</li>
-				<li>Articles</li>
-				<li>Careers</li>
-				<li>Donate</li>
-			</ul>
-			<ul>
-				<li class="footer-title">Discover</li>
-				<li>Home</li>
-				<li>Books</li>
-				<li>Authors</li>
-				<li>Subjects</li>
-				<li>Advanced Search</li>
-			</ul>
-			<ul>
-				<li class="footer-title">My Account</li>
-				<li>Sign in</li>
-				<li>View Chart</li>
-				<li>My Wishlist</li>
-				<li>Trach my order</li>
-			</ul>
-			<ul>
-				<li class="footer-title">Help</li>
-				<li>Help Center</li>
-				<li>Report a problem</li>
-				<li>Suggest edits</li>
-				<li>Contact us</li>
+				<p>
+					<a
+						><img
+							src="assets/google-play.jpg"
+							alt="Download the mobile app from Google Play."
+					/></a>
+					<a
+						><img
+							src="assets/app-store.jpg"
+							alt="Download the mobile app from the App Store."
+					/></a>
+				</p>
 			</ul>
 		</div>
-		<div class="footer-crn">
 
-			<p>© 2023 All rights reserved. Free HTML Template by Mark Hegedus</p>
+		<div id="footer">
+			<div class="footer-list">
+				<ul>
+					<li class="footer-title">
+						<a href="#"><img src="assets/main-logo.png" alt="" /></a>
+					</li>
+					<li class="secondary-color">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Sagittis sed ptibus liberolectus nonet psryroin. Amet sed
+						lorem posuere sit iaculis amet, ac urna. Adipiscing fames
+						semper erat ac in suspendisse iaculis.
+					</li>
+				</ul>
+				<ul>
+					<li class="footer-title">About Us</li>
+					<li>Vision</li>
+					<li>Articles</li>
+					<li>Careers</li>
+					<li>Donate</li>
+				</ul>
+				<ul>
+					<li class="footer-title">Discover</li>
+					<li>Home</li>
+					<li>Books</li>
+					<li>Authors</li>
+					<li>Subjects</li>
+					<li>Advanced Search</li>
+				</ul>
+				<ul>
+					<li class="footer-title">My Account</li>
+					<li>Sign in</li>
+					<li>View Chart</li>
+					<li>My Wishlist</li>
+					<li>Trach my order</li>
+				</ul>
+				<ul>
+					<li class="footer-title">Help</li>
+					<li>Help Center</li>
+					<li>Report a problem</li>
+					<li>Suggest edits</li>
+					<li>Contact us</li>
+				</ul>
+			</div>
+			<div class="footer-crn">
+				<p>
+					© 2023 All rights reserved. Free HTML Template by Mark Hegedus
+				</p>
+			</div>
 		</div>
-	</div>
-	<script src="js/navbar.js"></script>
-</body>
-
+		<script src="js/navbar.js"></script>
+	</body>
 </html>
