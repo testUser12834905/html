@@ -16,7 +16,7 @@ body {
 	color: red;
 	/* background-color: yellow; */
 	font-size: 22px;
-	border-bottom: 1.5px solid #E0E0E0;
+	border-bottom: 1.5px solid #e0e0e0;
 	transition: top 0.3s;
 }
 
@@ -37,9 +37,8 @@ body {
 .nonFix {
 	z-index: 500;
 	width: 100%;
-	background-color: rgb(243,242,236);
+	background-color: rgb(243, 242, 236);
 	position: fixed;
-
 }
 
 .nav-links {
@@ -51,7 +50,7 @@ body {
 /* This is for the nav links, both left and right.*/
 .nav-links a {
 	text-decoration: none;
-	color: rgb(119,119,119);
+	color: rgb(119, 119, 119);
 	text-transform: uppercase;
 	font-family: sans-serif;
 	font-weight: 90;
@@ -66,7 +65,6 @@ body {
 	border-radius: 25px;
 	border-width: 1px;
 	color: black;
-	
 }
 
 .nav-links a.pro {
@@ -75,8 +73,8 @@ body {
 
 .nav-links a:hover {
 	text-decoration: none;
-	transition: 0.15s ease-in-out;	
-	color: rgb(220,169,96);
+	transition: 0.15s ease-in-out;
+	color: rgb(220, 169, 96);
 }
 
 .nav-right {
@@ -96,11 +94,11 @@ body {
 
 .dropdown {
 	display: none;
-   position:absolute;
+	position: absolute;
 	/* width: 100%; */
-	z-index: 900;	
-	background-color: rgb(243,242,236);
-	border: 1px solid rgb(119,119,119);
+	z-index: 900;
+	background-color: rgb(243, 242, 236);
+	border: 1px solid rgb(119, 119, 119);
 	top: 70px;
 }
 .dropdown li {
@@ -112,13 +110,13 @@ li:hover ul.dropdown {
 	display: block;
 }
 
-li:hover .arrow{
+li:hover .arrow {
 	transform: rotate(90deg);
-	fill: rgb(220,169,96);
+	fill: rgb(220, 169, 96);
 }
 .arrow {
-	transition: 0.3s ease-in-out;	
-	fill: rgb(119,119,119);
+	transition: 0.3s ease-in-out;
+	fill: rgb(119, 119, 119);
 }
 
 #content {
@@ -132,25 +130,25 @@ li:hover .arrow{
 /* } */
 
 .primary-color {
-	color: rgb(34,34,34);
+	color: rgb(34, 34, 34);
 }
 
 .secondary-color {
-	color: rgb(119,119,119);
+	color: rgb(119, 119, 119);
 }
 
 .accent-color {
-	color: rgb(220,169,96);
+	color: rgb(220, 169, 96);
 }
 
 .accent-color-darker {
-	color: #C4A992;
-	border-color: #C4A992;
+	color: #c4a992;
+	border-color: #c4a992;
 	border-style: solid;
 	border-width: 1.5px;
 	font-size: 20px;
 	padding: 10px 25px 10px 25px;
-	background-color: rgb(243,242,236);
+	background-color: rgb(243, 242, 236);
 	margin-top: 40px;
 }
 
@@ -187,9 +185,16 @@ ul {
 }
 
 .highlight-title {
-	font-size: 60px;
+	font-size: 50px;
+	font-family: Arial, sans-serif;
 	margin-bottom: 20px;
 	margin-top: 70px;
+	color: #1e1e1e;
+	font-weight: 600;
+}
+
+.highlight-title > .highlight-title-orange {
+	color: #a75e30;
 }
 
 .credentials {
@@ -207,7 +212,7 @@ ul {
 .featured {
 	text-align: center;
 	margin: 30px;
-	border-bottom: 1.5px solid #E0E0E0;
+	border-bottom: 1.5px solid #e0e0e0;
 }
 .featured > h4 {
 	color: #949494;
@@ -226,7 +231,7 @@ ul {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 300px);
 	/* grid-auto-rows: 400px; */
-	justify-content: center;	
+	justify-content: center;
 	justify-items: center;
 }
 .featured-book {
@@ -242,7 +247,7 @@ ul {
 }
 .featured-book h2 {
 	font-size: 18px;
-	color: #73642F;
+	color: #73642f;
 }
 .featured-book h4 {
 	font-family: sans-serif;
@@ -252,7 +257,7 @@ ul {
 }
 .featured-book h3 {
 	font-family: sans-serif;
-	color: #73642F;
+	color: #73642f;
 	font-weight: 520;
 	font-size: 20px;
 }
@@ -285,7 +290,7 @@ ul {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
 	justify-content: center;
-	border-bottom: 1.5px solid #E0E0E0;
+	border-bottom: 1.5px solid #e0e0e0;
 	margin: 0 10%;
 }
 
